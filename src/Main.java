@@ -17,8 +17,8 @@ public class Main {
         deleteHewan.add("Unta");
 
 
-        System.out.println("Isi Hewan : ");
-        System.out.println("Isi DeleteHewan : " + Hewan);
+        System.out.println("Isi Hewan : " + Hewan);
+        System.out.println("Isi DeleteHewan : " + deleteHewan);
 
         Hewan.removeAll(deleteHewan);
 
